@@ -72,7 +72,7 @@ if [ $STATUS -eq 200 ]; then
     echo &quot;Marathon deploy failed.&quot;
     cat res.json
     exit ${STATUS}
- fi
+ fi 
  rm -f res.json
  &apos;&apos;&apos;
   
